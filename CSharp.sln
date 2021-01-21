@@ -15,9 +15,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadStatic", "Chapter 1\T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadLocalT", "Chapter 1\ThreadLocal_T_\ThreadLocalT\ThreadLocalT.csproj", "{0AD011AD-B6FF-4BC9-B371-A5C2A73BBE68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueingSomeWorkToThreadPool", "Chapter 1\QueingSomeWorkToThreadPool\QueingSomeWorkToThreadPool\QueingSomeWorkToThreadPool.csproj", "{28656ADC-1C07-4EB7-AED8-9BC36899FA29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueingSomeWorkToThreadPool", "Chapter 1\QueingSomeWorkToThreadPool\QueingSomeWorkToThreadPool\QueingSomeWorkToThreadPool.csproj", "{28656ADC-1C07-4EB7-AED8-9BC36899FA29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartingNewTask", "Chapter 1\StartingNewTask\StartingNewTask\StartingNewTask.csproj", "{086FE5A5-E45F-4591-8844-9180D670A0DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StartingNewTask", "Chapter 1\StartingNewTask\StartingNewTask\StartingNewTask.csproj", "{086FE5A5-E45F-4591-8844-9180D670A0DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskReturnsValue", "Chapter 1\TakeReturnsValue\TaskReturnsValue\TaskReturnsValue.csproj", "{036CDB18-1D41-4A0C-8618-533556EDB0C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinuationTaskInt", "Chapter 1\ContinuationTaskInt\ContinuationTaskInt\ContinuationTaskInt.csproj", "{FDE785F3-096E-42FC-9051-B686D504AAC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParentChildTasks", "Chapter 1\ParentChildTasks\ParentChildTasks\ParentChildTasks.csproj", "{CCEEAE02-E6E1-4564-A36B-64CBAF97033B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFactory", "Chapter 1\TaskFactory\TaskFactory\TaskFactory.csproj", "{CE12E73E-BA3C-448A-8903-ECD98789B059}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +61,22 @@ Global
 		{086FE5A5-E45F-4591-8844-9180D670A0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{086FE5A5-E45F-4591-8844-9180D670A0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{086FE5A5-E45F-4591-8844-9180D670A0DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{036CDB18-1D41-4A0C-8618-533556EDB0C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{036CDB18-1D41-4A0C-8618-533556EDB0C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{036CDB18-1D41-4A0C-8618-533556EDB0C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{036CDB18-1D41-4A0C-8618-533556EDB0C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE785F3-096E-42FC-9051-B686D504AAC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE785F3-096E-42FC-9051-B686D504AAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE785F3-096E-42FC-9051-B686D504AAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE785F3-096E-42FC-9051-B686D504AAC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCEEAE02-E6E1-4564-A36B-64CBAF97033B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCEEAE02-E6E1-4564-A36B-64CBAF97033B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCEEAE02-E6E1-4564-A36B-64CBAF97033B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCEEAE02-E6E1-4564-A36B-64CBAF97033B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE12E73E-BA3C-448A-8903-ECD98789B059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE12E73E-BA3C-448A-8903-ECD98789B059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE12E73E-BA3C-448A-8903-ECD98789B059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE12E73E-BA3C-448A-8903-ECD98789B059}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +89,10 @@ Global
 		{0AD011AD-B6FF-4BC9-B371-A5C2A73BBE68} = {98406D9C-FE72-45BE-BCC5-17021BBA1B10}
 		{28656ADC-1C07-4EB7-AED8-9BC36899FA29} = {98406D9C-FE72-45BE-BCC5-17021BBA1B10}
 		{086FE5A5-E45F-4591-8844-9180D670A0DB} = {98406D9C-FE72-45BE-BCC5-17021BBA1B10}
+		{036CDB18-1D41-4A0C-8618-533556EDB0C2} = {98406D9C-FE72-45BE-BCC5-17021BBA1B10}
+		{FDE785F3-096E-42FC-9051-B686D504AAC9} = {98406D9C-FE72-45BE-BCC5-17021BBA1B10}
+		{CCEEAE02-E6E1-4564-A36B-64CBAF97033B} = {98406D9C-FE72-45BE-BCC5-17021BBA1B10}
+		{CE12E73E-BA3C-448A-8903-ECD98789B059} = {98406D9C-FE72-45BE-BCC5-17021BBA1B10}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD7AE56A-BE5E-48E7-89AF-EC1E850071F9}
